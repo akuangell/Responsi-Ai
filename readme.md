@@ -170,7 +170,7 @@ model.load_state_dict(torch.load('best_model.pth'))  # load terbaik
 
 ## 🌐 Soal 2 — Implementasi Website
 
-Model MobileNetV2 hasil training diimplementasikan ke website fungsional menggunakan **Flask Backend + HTML/CSS/JS Frontend**. Sepenuhnya memakai bobot model sendiri (`best_model.pth`) — tanpa API pihak lain.
+Model MobileNetV2 hasil training diimplementasikan ke website fungsional menggunakan **Flask Backend + HTML/CSS/JS Frontend**. Sepenuhnya memakai bobot model sendiri (`best_model.pth`).
 
 | Sumber | Link |
 |--------|------|
@@ -255,7 +255,7 @@ python app.py
 | 🖱️ Drag & Drop | Upload gambar dengan drag-and-drop atau klik — JPG, PNG, WEBP, GIF |
 | 👁️ Preview Gambar | Tampilan preview beserta nama file dan ukuran sebelum dianalisis |
 | 📊 Confidence Bar | Bar persentase keyakinan animasi dari output softmax model |
-| 🔄 Model Sendiri | 100% menggunakan best_model.pth hasil training — tanpa API lain |
+| 🔄 Model Sendiri | 100% menggunakan best_model.pth hasil training |
 | 🌙 Dark Theme | Desain dark theme profesional dengan animasi dan tampilan responsif |
 | ⚠️ Error Handling | Pesan error informatif jika server tidak aktif atau input tidak valid |
 
